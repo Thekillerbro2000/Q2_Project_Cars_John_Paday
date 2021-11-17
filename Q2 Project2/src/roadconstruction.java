@@ -1,3 +1,4 @@
+import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Image;
@@ -7,17 +8,17 @@ import java.awt.event.MouseListener;
 import java.awt.geom.AffineTransform;
 import java.net.URL;
 
-public class Background{
+public class roadconstruction{
 	
 	//image related variables
 	private Image img; 	
 	private AffineTransform tx;
 	public int x,y;
 	public int vy = 9;
-	public Background(int x, int y) {
+	public roadconstruction(int x, int y) {
 		this.x = x;
 		this.y = y;
-		img = getImage("/imgs/road.png"); //load the image for Tree
+		img = getImage("/imgs/blockade.gif"); //load the image for Tree
 		tx = AffineTransform.getTranslateInstance(x, y );
 		init(x, y); 				//initialize the location of the image
 									//use your variables
@@ -31,7 +32,8 @@ public class Background{
 		//these are the 2 lines of code needed draw an image on the screen
 		
 		Graphics2D g2 = (Graphics2D) g;
-		
+		//g.setColor(Color.white);
+		//g.drawRect(x, y, 50, 40);
 		
 		//call update to update the actualy picture location
 		update();
@@ -44,27 +46,28 @@ public class Background{
 		
 
 	}
+	
 	/* update variables here */
 	private void update() {
 	y += vy;	
 	
 	tx.setToTranslation(x, y);
-	tx.scale(2.0, 7.0);	
+	tx.scale(0.1, 0.1);	
 	}
 	public void reset() {
-		this.x = -5;
-		this.y = -850;
+		this.x = 125;
+		this.y = -400;
 	}
 	
 	private void init(double a, double b) {
 		tx.setToTranslation(a, b);
-		tx.scale(2.0, 7.0);
+		tx.scale(0.1, 0.1);
 	}
 
 	private Image getImage(String path) {
 		Image tempImage = null;
 		try {
-			URL imageURL = Background.class.getResource(path);
+			URL imageURL = roadconstruction.class.getResource(path);
 			tempImage = Toolkit.getDefaultToolkit().getImage(imageURL);
 		} catch (Exception e) {
 			e.printStackTrace();
