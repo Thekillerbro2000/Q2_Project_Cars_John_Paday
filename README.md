@@ -1,4 +1,11 @@
 # Cars Moving
+## How to Play
+Dodge the obstacles that are in your way and get the highest score
+
+![image](https://user-images.githubusercontent.com/90801604/148463388-86425af2-f49c-4352-8ca0-fc61a6a98d00.png)
+
+## Controls
+Use the arrow keys to go up, down, left, and right
 
 ## Contributors
 [John Paday](https://github.com/Thekillerbro2000) and [Logan Eli](https://github.com/leli04)
