@@ -1,6 +1,6 @@
 # Cars Moving
 
-##Frame
+## Frame
 
 In the frame class the very first thing that is found under the class header is the creation of objects and variables. The objects are created by calling upon other objects in the java project. One example is how the object bg is created by calling upon the Background constructor in the Background class. Also the fonts and variables that are specifically used in the Frame class. These objects will then be painted later in the paint method.
 
@@ -33,7 +33,7 @@ Code for keys in order to make sure that the car moves when keys are pressed
 The code makes sure that the blue car does not move in a certain direction forever after the key is released.
 
 
-##Car
+## Car
 
 The car class has similar coding to the background class and all the obstacle classes in which its constructor is nearly the same.
 
@@ -44,7 +44,7 @@ This code is used to update the x and y variables in order to make the car move.
 Its paint method is the same in Background and in the obstacle classes
 
 
-##Obstacles and Background
+## Obstacles and Background
 
 They have nearly the same code, except the speeds may be different and the size of the obstacles are different from each other. Their update methods are the same along with their paint methods. The code used to get the image is the same and the code used to make it to scale is the same. Their constructors also have the same code.
 
