@@ -1,7 +1,7 @@
 # Cars Moving
 
 ## Contributors
-John Paday and Logan Eli
+[John Paday](https://github.com/Thekillerbro2000) and [Logan Eli](https://github.com/leli04)
 
 ## Frame
 
