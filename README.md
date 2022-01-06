@@ -1,7 +1,7 @@
 # Cars Moving
 
 ## Contributors
-
+John Paday and Logan Eli
 
 ## Frame
 
