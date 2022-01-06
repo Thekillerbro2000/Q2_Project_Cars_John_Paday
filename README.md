@@ -1,6 +1,8 @@
 # Cars Moving
 Cars
+
 Frame
+
 In the frame class the very first thing that is found under the class header is the creation of objects and variables. The objects are created by calling upon other objects in the java project. One example is how the object bg is created by calling upon the Background constructor in the Background class. Also the fonts and variables that are specifically used in the Frame class. These objects will then be painted later in the paint method.
 
 The first lines of code that occur in the paint method is the painting of all the objects. The bg object is the first thing to be painted because the other object will be overlapping it or in front of it. 
